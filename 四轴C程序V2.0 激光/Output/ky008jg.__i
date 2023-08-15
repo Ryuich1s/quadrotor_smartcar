@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\StartUp -I .\Lib\inc -I .\Lib\src -I .\USER -I .\MATH -I .\CONFIG -I .\HARDWARE -I .\HAL
+-I.\RTE\_Target_1
+-IE:\keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+-IE:\keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD
+-o .\output\ky008jg.o --omf_browse .\output\ky008jg.crf --depend .\output\ky008jg.d "KY008JG.c"
